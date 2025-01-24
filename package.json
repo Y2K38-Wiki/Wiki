@@ -1,38 +1,17 @@
 {
-  "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
   "private": true,
-  "version": "4.4.0",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
-  },
+
   "scripts": {
-    "dev" : "bun run quartz build --serve" ,
     "quartz": "./quartz/bootstrap-cli.mjs",
-    "check": "tsc --noEmit",
-    "test": "tsx ./quartz/util/path.test.ts && tsx ./quartz/depgraph.test.ts",
-    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
+    "build" : "bun run quartz build" ,
+    "dev": "bun run quartz build --serve"
   },
-  "engines": {
-    "npm": ">=9.3.1",
-    "node": "20 || >=22"
-  },
-  "keywords": [
-    "site generator",
-    "ssg",
-    "digital-garden",
-    "markdown",
-    "blog",
-    "quartz"
-  ],
+ 
   "bin": {
     "quartz": "./quartz/bootstrap-cli.mjs"
   },
+  
   "dependencies": {
     "@clack/prompts": "^0.9.1",
     "@floating-ui/dom": "^1.6.13",
