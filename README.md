@@ -1,18 +1,13 @@
-# Quartz v4
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+# Y2K38 - Wiki
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+Page that collect information on the Y2K38 problem & remedies.
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+<br/>
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+## Contributing
 
-## Sponsors
+This project uses Quartz which isn't exactly a wiki software  
+but it's easy to customize and work great on GitHub pages.
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+TLDR the `/content/` folder contains the markdown pages.
